@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  python_launchpad_day2:
+    build: .
+    container_name: python_launchpad_day2_container
+    # For this simple script, we don't need port mapping or volumes,
+    # but they would be defined here for more complex applications.
+    # volumes:
+    #   - ./project/src:/app/src # Mount source code for live changes (optional)
+    # ports:
+    #   - "8000:8000"

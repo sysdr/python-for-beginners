@@ -1,0 +1,4 @@
+# No specific dependencies for this basic lesson,
+# but it's good practice to always include this file.
+# Dashboard and tests:
+flask>=3.0.0

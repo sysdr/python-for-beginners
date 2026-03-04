@@ -1,0 +1,19 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Istio
+*istio*
+
+# Env / secrets
+.env
+.env.local
+
+# Project-generated (recreate with setup.sh)
+project/src/metrics.json
